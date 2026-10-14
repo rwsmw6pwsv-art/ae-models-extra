@@ -1,0 +1,12 @@
+{
+  "manifestVersion": 1,
+  "package": "ae-models-extra",
+  "convention": { "forward": "+Z", "up": "+Y" },
+  "models": [
+    { "file": "models/units/archer/archer.glb", "forward": "+Z", "up": "+Y" },
+    { "file": "models/units/archer/bow.glb", "forward": "+Z", "up": "+Y", "note": "held item; grip offset in ArcherModel.tsx" },
+    { "file": "models/kings/king_clips.glb", "kind": "clips", "skeleton": "mixamorig-72", "note": "animation-only; targets the mixamorig-72 list in ae-models-kings models.manifest.json" },
+    { "file": "models/kings/crocodile-king.glb", "forward": "+Z", "up": "+Y", "note": "legacy duplicate of Crocodile King Rider; slated for removal" },
+    { "file": "models/kings/puma-king.glb", "forward": "+Z", "up": "+Y", "note": "static mesh; facing not measured" }
+  ]
+}
