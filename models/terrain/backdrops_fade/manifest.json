@@ -1,0 +1,481 @@
+{
+  "version": "backdrops-fade-v1",
+  "note": "Final, approved horizon backdrops to use with the #143 ground alpha-fade disc. Sky is unchanged from models/terrain/backdrops/; there is about 10 degrees more photo land below the horizon. Michael look-approved the #143 ground set against these backdrops. Use models/terrain/backdrops/ only with the old opaque disc. The older models/terrain/ground/backdrop_test/ path still has the same image bytes and is deprecated.",
+  "licence": "CC0",
+  "keep_deg": 10.0,
+  "encoding": "webp-q90",
+  "resolution": [
+    4096,
+    2048
+  ],
+  "resolution_2k": [
+    2048,
+    1024
+  ],
+  "source": "ae-models-extra v7 models/terrain/ground/backdrop_test/ (byte-identical WebP files)",
+  "files": [
+    {
+      "path": "backdrops_fade/desert.webp",
+      "bytes": 100702,
+      "sha256": "4e659066d3a7e5f13088fd46adb14a94eccec53c2da5e5a584a541ac01d327cb",
+      "resolution": [
+        4096,
+        2048
+      ]
+    },
+    {
+      "path": "backdrops_fade/desert_2k.webp",
+      "bytes": 44496,
+      "sha256": "4a61beb4eaec89e41595a29642fb5e551f037551f6584558e69bc1b1b8c7119c",
+      "resolution": [
+        2048,
+        1024
+      ]
+    },
+    {
+      "path": "backdrops_fade/savanna.webp",
+      "bytes": 103650,
+      "sha256": "01ac7f1be048e92febd11e2ddf7061045a9c3b14820c9fe675bda72cfb16a3cd",
+      "resolution": [
+        4096,
+        2048
+      ]
+    },
+    {
+      "path": "backdrops_fade/savanna_2k.webp",
+      "bytes": 42318,
+      "sha256": "5c0bd1b021a4d2034379ade06708be47dd906fac673a47921e38566896d22e5b",
+      "resolution": [
+        2048,
+        1024
+      ]
+    },
+    {
+      "path": "backdrops_fade/mediterranean.webp",
+      "bytes": 114530,
+      "sha256": "680f3af1efc42769b3b825c693757fdff4b084839e4aea8929c0496c29a4f1c9",
+      "resolution": [
+        4096,
+        2048
+      ]
+    },
+    {
+      "path": "backdrops_fade/mediterranean_2k.webp",
+      "bytes": 46122,
+      "sha256": "6a42e4a7640ea74fef67a3e837758d3768e6671ad7dee236a08515df27c39af1",
+      "resolution": [
+        2048,
+        1024
+      ]
+    },
+    {
+      "path": "backdrops_fade/jungle.webp",
+      "bytes": 220148,
+      "sha256": "ca3761684dd888201617f3d931679c23a7f3be66fbd0e9749fcf35368b116701",
+      "resolution": [
+        4096,
+        2048
+      ]
+    },
+    {
+      "path": "backdrops_fade/jungle_2k.webp",
+      "bytes": 78724,
+      "sha256": "6c4a23ebd633e20ca6757265692fb08b5ff7960167aa6f66d18fbc3747f1adf9",
+      "resolution": [
+        2048,
+        1024
+      ]
+    },
+    {
+      "path": "backdrops_fade/forest.webp",
+      "bytes": 135780,
+      "sha256": "318b60158c20692c60acdff5cd575ce056816b99b959e1434f34a325d960421f",
+      "resolution": [
+        4096,
+        2048
+      ]
+    },
+    {
+      "path": "backdrops_fade/forest_2k.webp",
+      "bytes": 55062,
+      "sha256": "88fd4a310ad8bc02c9e98a4ef8b8999678feafd58127b65cabcff4a603f4f521",
+      "resolution": [
+        2048,
+        1024
+      ]
+    },
+    {
+      "path": "backdrops_fade/grass.webp",
+      "bytes": 247848,
+      "sha256": "6adf3b5ba08e529fcc40a3f245954cb3aed1a1c1db9363caaaf2d3ad635c9d80",
+      "resolution": [
+        4096,
+        2048
+      ]
+    },
+    {
+      "path": "backdrops_fade/grass_2k.webp",
+      "bytes": 109418,
+      "sha256": "d9aa051998f562bb75b47fe44d5e7dde64cfdd495821d6bcf61639509c44bf09",
+      "resolution": [
+        2048,
+        1024
+      ]
+    },
+    {
+      "path": "backdrops_fade/steppe.webp",
+      "bytes": 111110,
+      "sha256": "d59e07dbf17d2ee825ca4b9e52e0e458603672c194726f4aae26a898fc21bd33",
+      "resolution": [
+        4096,
+        2048
+      ]
+    },
+    {
+      "path": "backdrops_fade/steppe_2k.webp",
+      "bytes": 46306,
+      "sha256": "3450192fa6c4f308938ccdcba25bc6f9ac5e529cf4be2f582e0b5c01c1be0746",
+      "resolution": [
+        2048,
+        1024
+      ]
+    },
+    {
+      "path": "backdrops_fade/mountain.webp",
+      "bytes": 83992,
+      "sha256": "67bc52693b725fe5530592f2c7d09329202764437472118694522fe6e8d40f03",
+      "resolution": [
+        4096,
+        2048
+      ]
+    },
+    {
+      "path": "backdrops_fade/mountain_2k.webp",
+      "bytes": 34264,
+      "sha256": "7b5b93bb9385cc2aff0e2f0c28d9c3a64f71be36ca8d49032f1005443c795717",
+      "resolution": [
+        2048,
+        1024
+      ]
+    },
+    {
+      "path": "backdrops_fade/ice.webp",
+      "bytes": 202470,
+      "sha256": "66f7da10f6cda19584cee33f3fdaf3d5860184c37cf48bac03ed9814882393b2",
+      "resolution": [
+        4096,
+        2048
+      ]
+    },
+    {
+      "path": "backdrops_fade/ice_2k.webp",
+      "bytes": 73596,
+      "sha256": "fa28451b7dd2d6f3f366621470697e6584549f604e533f8ca7e6775efc0f99ee",
+      "resolution": [
+        2048,
+        1024
+      ]
+    },
+    {
+      "path": "backdrops_fade/tundra.webp",
+      "bytes": 78184,
+      "sha256": "8782039c5289d195ddbd59e6cb83e5b5f0e4c3f4ef594215546427cfdde10a74",
+      "resolution": [
+        4096,
+        2048
+      ]
+    },
+    {
+      "path": "backdrops_fade/tundra_2k.webp",
+      "bytes": 31904,
+      "sha256": "4ed6179b5ccb97b25243c8bcac40fc91057e2f277eb0bdf3e02964e8101daea9",
+      "resolution": [
+        2048,
+        1024
+      ]
+    }
+  ],
+  "biomes": {
+    "desert": {
+      "webp": "backdrops_fade/desert.webp",
+      "bytes": 100702,
+      "horizon_v": 0.4333,
+      "keep_v": 0.05555555555555555,
+      "keep_deg": 10.0,
+      "sky_identical": true,
+      "sky_mse": 0.0,
+      "v4_cleaned": true,
+      "sky_exception_px": 0,
+      "encoding": "webp-q90",
+      "sky_identical_source": true,
+      "sky_mse_lossy": 0.116,
+      "v4_local_mask": true,
+      "webp_quality": 90,
+      "sha256": "4e659066d3a7e5f13088fd46adb14a94eccec53c2da5e5a584a541ac01d327cb",
+      "webp_2k": "backdrops_fade/desert_2k.webp",
+      "bytes_2k": 44496,
+      "sha256_2k": "4a61beb4eaec89e41595a29642fb5e551f037551f6584558e69bc1b1b8c7119c",
+      "resolution": [
+        4096,
+        2048
+      ],
+      "resolution_2k": [
+        2048,
+        1024
+      ]
+    },
+    "savanna": {
+      "webp": "backdrops_fade/savanna.webp",
+      "bytes": 103650,
+      "horizon_v": 0.4346,
+      "keep_v": 0.05555555555555555,
+      "keep_deg": 10.0,
+      "sky_identical": true,
+      "sky_mse": 0.0,
+      "sky_exception_px": 0,
+      "v4_cleaned": false,
+      "encoding": "webp-q90",
+      "sky_identical_source": true,
+      "sky_mse_lossy": 0.287,
+      "v4_local_mask": false,
+      "webp_quality": 90,
+      "sha256": "01ac7f1be048e92febd11e2ddf7061045a9c3b14820c9fe675bda72cfb16a3cd",
+      "webp_2k": "backdrops_fade/savanna_2k.webp",
+      "bytes_2k": 42318,
+      "sha256_2k": "5c0bd1b021a4d2034379ade06708be47dd906fac673a47921e38566896d22e5b",
+      "resolution": [
+        4096,
+        2048
+      ],
+      "resolution_2k": [
+        2048,
+        1024
+      ]
+    },
+    "mediterranean": {
+      "webp": "backdrops_fade/mediterranean.webp",
+      "bytes": 114530,
+      "horizon_v": 0.4849,
+      "keep_v": 0.05555555555555555,
+      "keep_deg": 10.0,
+      "sky_identical": true,
+      "sky_mse": 0.0,
+      "v4_cleaned": true,
+      "sky_exception_px": 0,
+      "encoding": "webp-q90",
+      "sky_identical_source": true,
+      "sky_mse_lossy": 0.2757,
+      "v4_local_mask": true,
+      "webp_quality": 90,
+      "v5_land_refill": true,
+      "sha256": "680f3af1efc42769b3b825c693757fdff4b084839e4aea8929c0496c29a4f1c9",
+      "webp_2k": "backdrops_fade/mediterranean_2k.webp",
+      "bytes_2k": 46122,
+      "sha256_2k": "6a42e4a7640ea74fef67a3e837758d3768e6671ad7dee236a08515df27c39af1",
+      "resolution": [
+        4096,
+        2048
+      ],
+      "resolution_2k": [
+        2048,
+        1024
+      ]
+    },
+    "jungle": {
+      "webp": "backdrops_fade/jungle.webp",
+      "bytes": 220148,
+      "horizon_v": 0.46,
+      "keep_v": 0.05555555555555555,
+      "keep_deg": 10.0,
+      "sky_identical": true,
+      "sky_mse": 0.0,
+      "sky_exception_px": 0,
+      "v4_cleaned": false,
+      "encoding": "webp-q90",
+      "sky_identical_source": true,
+      "sky_mse_lossy": 0.8374,
+      "v4_local_mask": false,
+      "webp_quality": 90,
+      "sha256": "ca3761684dd888201617f3d931679c23a7f3be66fbd0e9749fcf35368b116701",
+      "webp_2k": "backdrops_fade/jungle_2k.webp",
+      "bytes_2k": 78724,
+      "sha256_2k": "6c4a23ebd633e20ca6757265692fb08b5ff7960167aa6f66d18fbc3747f1adf9",
+      "resolution": [
+        4096,
+        2048
+      ],
+      "resolution_2k": [
+        2048,
+        1024
+      ]
+    },
+    "forest": {
+      "webp": "backdrops_fade/forest.webp",
+      "bytes": 135780,
+      "horizon_v": 0.4727,
+      "keep_v": 0.05555555555555555,
+      "keep_deg": 10.0,
+      "sky_identical": true,
+      "sky_mse": 0.0,
+      "v4_cleaned": true,
+      "sky_exception_px": 0,
+      "encoding": "webp-q90",
+      "sky_identical_source": true,
+      "sky_mse_lossy": 0.5385,
+      "v4_local_mask": true,
+      "webp_quality": 90,
+      "sha256": "318b60158c20692c60acdff5cd575ce056816b99b959e1434f34a325d960421f",
+      "webp_2k": "backdrops_fade/forest_2k.webp",
+      "bytes_2k": 55062,
+      "sha256_2k": "88fd4a310ad8bc02c9e98a4ef8b8999678feafd58127b65cabcff4a603f4f521",
+      "resolution": [
+        4096,
+        2048
+      ],
+      "resolution_2k": [
+        2048,
+        1024
+      ]
+    },
+    "grass": {
+      "webp": "backdrops_fade/grass.webp",
+      "bytes": 247848,
+      "horizon_v": 0.4763,
+      "keep_v": 0.05555555555555555,
+      "keep_deg": 10.0,
+      "sky_identical": true,
+      "sky_mse": 0.0,
+      "v4_cleaned": true,
+      "sky_exception_px": 0,
+      "encoding": "webp-q90",
+      "sky_identical_source": true,
+      "sky_mse_lossy": 1.1569,
+      "v4_local_mask": true,
+      "webp_quality": 90,
+      "sha256": "6adf3b5ba08e529fcc40a3f245954cb3aed1a1c1db9363caaaf2d3ad635c9d80",
+      "webp_2k": "backdrops_fade/grass_2k.webp",
+      "bytes_2k": 109418,
+      "sha256_2k": "d9aa051998f562bb75b47fe44d5e7dde64cfdd495821d6bcf61639509c44bf09",
+      "resolution": [
+        4096,
+        2048
+      ],
+      "resolution_2k": [
+        2048,
+        1024
+      ]
+    },
+    "steppe": {
+      "webp": "backdrops_fade/steppe.webp",
+      "bytes": 111110,
+      "horizon_v": 0.5156,
+      "keep_v": 0.05555555555555555,
+      "keep_deg": 10.0,
+      "sky_identical": false,
+      "sky_mse": 0.0,
+      "v4_cleaned": true,
+      "sky_exception_px": 832,
+      "encoding": "webp-q90",
+      "sky_identical_source": false,
+      "sky_mse_lossy": 0.3096,
+      "v4_local_mask": true,
+      "webp_quality": 90,
+      "sha256": "d59e07dbf17d2ee825ca4b9e52e0e458603672c194726f4aae26a898fc21bd33",
+      "webp_2k": "backdrops_fade/steppe_2k.webp",
+      "bytes_2k": 46306,
+      "sha256_2k": "3450192fa6c4f308938ccdcba25bc6f9ac5e529cf4be2f582e0b5c01c1be0746",
+      "resolution": [
+        4096,
+        2048
+      ],
+      "resolution_2k": [
+        2048,
+        1024
+      ]
+    },
+    "mountain": {
+      "webp": "backdrops_fade/mountain.webp",
+      "bytes": 83992,
+      "horizon_v": 0.4102,
+      "keep_v": 0.05555555555555555,
+      "keep_deg": 10.0,
+      "sky_identical": true,
+      "sky_mse": 0.0,
+      "sky_exception_px": 0,
+      "v4_cleaned": false,
+      "encoding": "webp-q90",
+      "sky_identical_source": true,
+      "sky_mse_lossy": 0.1552,
+      "v4_local_mask": false,
+      "webp_quality": 90,
+      "sha256": "67bc52693b725fe5530592f2c7d09329202764437472118694522fe6e8d40f03",
+      "webp_2k": "backdrops_fade/mountain_2k.webp",
+      "bytes_2k": 34264,
+      "sha256_2k": "7b5b93bb9385cc2aff0e2f0c28d9c3a64f71be36ca8d49032f1005443c795717",
+      "resolution": [
+        4096,
+        2048
+      ],
+      "resolution_2k": [
+        2048,
+        1024
+      ]
+    },
+    "ice": {
+      "webp": "backdrops_fade/ice.webp",
+      "bytes": 202470,
+      "horizon_v": 0.46,
+      "keep_v": 0.05555555555555555,
+      "keep_deg": 10.0,
+      "sky_identical": true,
+      "sky_mse": 0.0,
+      "sky_exception_px": 0,
+      "v4_cleaned": false,
+      "encoding": "webp-q90",
+      "sky_identical_source": true,
+      "sky_mse_lossy": 0.6864,
+      "v4_local_mask": false,
+      "webp_quality": 90,
+      "sha256": "66f7da10f6cda19584cee33f3fdaf3d5860184c37cf48bac03ed9814882393b2",
+      "webp_2k": "backdrops_fade/ice_2k.webp",
+      "bytes_2k": 73596,
+      "sha256_2k": "fa28451b7dd2d6f3f366621470697e6584549f604e533f8ca7e6775efc0f99ee",
+      "resolution": [
+        4096,
+        2048
+      ],
+      "resolution_2k": [
+        2048,
+        1024
+      ]
+    },
+    "tundra": {
+      "webp": "backdrops_fade/tundra.webp",
+      "bytes": 78184,
+      "horizon_v": 0.5088,
+      "keep_v": 0.05555555555555555,
+      "keep_deg": 10.0,
+      "sky_identical": true,
+      "sky_mse": 0.0,
+      "sky_exception_px": 0,
+      "v4_cleaned": false,
+      "encoding": "webp-q90",
+      "sky_identical_source": true,
+      "sky_mse_lossy": 0.1526,
+      "v4_local_mask": false,
+      "webp_quality": 90,
+      "sha256": "8782039c5289d195ddbd59e6cb83e5b5f0e4c3f4ef594215546427cfdde10a74",
+      "webp_2k": "backdrops_fade/tundra_2k.webp",
+      "bytes_2k": 31904,
+      "sha256_2k": "4ed6179b5ccb97b25243c8bcac40fc91057e2f277eb0bdf3e02964e8101daea9",
+      "resolution": [
+        4096,
+        2048
+      ],
+      "resolution_2k": [
+        2048,
+        1024
+      ]
+    }
+  }
+}
