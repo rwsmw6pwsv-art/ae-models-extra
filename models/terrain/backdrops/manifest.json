@@ -1,0 +1,769 @@
+{
+  "version": "v10-savanna-tundra",
+  "licence": "CC0",
+  "camera_desktop": {
+    "fov": 44,
+    "pos": [
+      68,
+      64,
+      350
+    ],
+    "target": [
+      2,
+      8,
+      234
+    ]
+  },
+  "camera_raised": {
+    "fov": 44,
+    "pos": [
+      68,
+      90,
+      365
+    ],
+    "target": [
+      2,
+      30,
+      175
+    ]
+  },
+  "camera_backdrop": {
+    "fov": 48,
+    "pos": [
+      55,
+      48,
+      300
+    ],
+    "target": [
+      2,
+      42,
+      40
+    ]
+  },
+  "key_position": [
+    300.0,
+    48.0,
+    400.0
+  ],
+  "play_r": 368.0,
+  "sphere_radius": 1800.0,
+  "ground_colours": {
+    "desert": "#d2a86a",
+    "savanna": "#d4b24a",
+    "mediterranean": "#9a8f68",
+    "jungle": "#3f5e32",
+    "forest": "#3a4f30",
+    "grass": "#5a8a3e",
+    "steppe": "#a89868",
+    "mountain": "#6e6860",
+    "ice": "#e8eef4",
+    "tundra": "#8a8570"
+  },
+  "biomes": {
+    "desert": {
+      "biome": "desert",
+      "source_id": "desert_goegap",
+      "source_url": "https://polyhaven.com/a/desert_goegap",
+      "strip_url": null,
+      "licence": "CC0",
+      "note": "rocky desert peaks \u2014 clear tan rock (kept from v3)",
+      "webp": "backdrops/desert.webp",
+      "bytes": 107464,
+      "resolution": [
+        4096,
+        2048
+      ],
+      "horizon_v": 0.4333,
+      "sun_u": 0.605,
+      "yaw_deg": 179.1,
+      "yaw_sun_deg": 74.66,
+      "vista_u": 0.4152,
+      "fog_hex": "#4c6690",
+      "ground_disc_hex": "#d2a86a",
+      "horizon_land_hex": "#606b7a",
+      "sky_top_hex": "#394c71",
+      "masked_below_horizon": true,
+      "soft_seam": true,
+      "keep_land_frac": 0.055,
+      "sphere_radius": 1800.0,
+      "play_r": 368.0,
+      "camera_desktop": {
+        "fov": 44,
+        "pos": [
+          68,
+          64,
+          350
+        ],
+        "target": [
+          2,
+          8,
+          234
+        ]
+      },
+      "camera_raised": {
+        "fov": 44,
+        "pos": [
+          68,
+          90,
+          365
+        ],
+        "target": [
+          2,
+          30,
+          175
+        ]
+      },
+      "camera_backdrop": {
+        "fov": 48,
+        "pos": [
+          55,
+          48,
+          300
+        ],
+        "target": [
+          2,
+          42,
+          40
+        ]
+      },
+      "key_position": [
+        300.0,
+        48.0,
+        400.0
+      ]
+    },
+    "savanna": {
+      "biome": "savanna",
+      "source_id": "klippad_sunrise_2",
+      "source_url": "https://polyhaven.com/a/klippad_sunrise_2",
+      "licence": "CC0",
+      "note": "golden rocky grass hills (Namaqualand); distant low hills all 4 yaws; no near objects; warm golden grade; fog darker than land; replaced empty syferfontein_18d_clear",
+      "webp": "backdrops/savanna.webp",
+      "bytes": 109364,
+      "resolution": [
+        4096,
+        2048
+      ],
+      "horizon_v": 0.4346,
+      "sun_u": 0.5737,
+      "yaw_deg": 28.2,
+      "vista_u": 0.996,
+      "vista_nudge": 0.004,
+      "fog_hex": "#a69c99",
+      "ground_disc_hex": "#d4b24a",
+      "horizon_land_hex": "#ab9b92",
+      "sky_top_hex": "#828fa1",
+      "soft_seam": true,
+      "keep_land_frac": 0.055,
+      "sphere_radius": 1800.0,
+      "play_r": 368.0,
+      "camera_desktop": {
+        "fov": 44,
+        "pos": [
+          68,
+          64,
+          350
+        ],
+        "target": [
+          2,
+          8,
+          234
+        ]
+      },
+      "camera_raised": {
+        "fov": 44,
+        "pos": [
+          68,
+          90,
+          365
+        ],
+        "target": [
+          2,
+          30,
+          175
+        ]
+      },
+      "camera_backdrop": {
+        "fov": 48,
+        "pos": [
+          55,
+          48,
+          300
+        ],
+        "target": [
+          2,
+          42,
+          40
+        ]
+      },
+      "key_position": [
+        300.0,
+        48.0,
+        400.0
+      ]
+    },
+    "mediterranean": {
+      "biome": "mediterranean",
+      "source_id": "autumn_hill_view",
+      "source_url": "https://polyhaven.com/a/autumn_hill_view",
+      "strip_url": null,
+      "licence": "CC0",
+      "note": "elevated hills warm scrub / olive (kept from v3)",
+      "webp": "backdrops/mediterranean.webp",
+      "bytes": 123288,
+      "resolution": [
+        4096,
+        2048
+      ],
+      "horizon_v": 0.4849,
+      "sun_u": 0.5957,
+      "yaw_deg": 27.22,
+      "yaw_sun_deg": 71.32,
+      "vista_u": 0.9933,
+      "fog_hex": "#abb7c2",
+      "ground_disc_hex": "#9a8f68",
+      "horizon_land_hex": "#63645f",
+      "sky_top_hex": "#707d92",
+      "masked_below_horizon": true,
+      "soft_seam": true,
+      "keep_land_frac": 0.055,
+      "sphere_radius": 1800.0,
+      "play_r": 368.0,
+      "camera_desktop": {
+        "fov": 44,
+        "pos": [
+          68,
+          64,
+          350
+        ],
+        "target": [
+          2,
+          8,
+          234
+        ]
+      },
+      "camera_raised": {
+        "fov": 44,
+        "pos": [
+          68,
+          90,
+          365
+        ],
+        "target": [
+          2,
+          30,
+          175
+        ]
+      },
+      "camera_backdrop": {
+        "fov": 48,
+        "pos": [
+          55,
+          48,
+          300
+        ],
+        "target": [
+          2,
+          42,
+          40
+        ]
+      },
+      "key_position": [
+        300.0,
+        48.0,
+        400.0
+      ]
+    },
+    "jungle": {
+      "biome": "jungle",
+      "source_id": "composite_rainforest_canopy_hills",
+      "source_url": "composite: syferfontein_1d_clear (Poly Haven CC0) + Rainforest mountains Unsplash CC0 (right canopy sector; wall/pylon cropped out)",
+      "strip_url": "https://commons.wikimedia.org/wiki/File:Rainforest_mountains_(Unsplash).jpg",
+      "licence": "CC0",
+      "note": "textured tropical canopy hills/ridges \u2014 not flat green strip",
+      "webp": "backdrops/jungle.webp",
+      "bytes": 185634,
+      "resolution": [
+        4096,
+        2048
+      ],
+      "horizon_v": 0.46,
+      "sun_u": 0.6299,
+      "yaw_deg": 139.72,
+      "yaw_sun_deg": 83.63,
+      "vista_u": 0.3058,
+      "fog_hex": "#6d8486",
+      "ground_disc_hex": "#3f5e32",
+      "horizon_land_hex": "#2e3c2a",
+      "sky_top_hex": "#67798f",
+      "masked_below_horizon": true,
+      "soft_seam": true,
+      "keep_land_frac": 0.03,
+      "sphere_radius": 1800.0,
+      "play_r": 368.0,
+      "camera_desktop": {
+        "fov": 44,
+        "pos": [
+          68,
+          64,
+          350
+        ],
+        "target": [
+          2,
+          8,
+          234
+        ]
+      },
+      "camera_raised": {
+        "fov": 44,
+        "pos": [
+          68,
+          90,
+          365
+        ],
+        "target": [
+          2,
+          30,
+          175
+        ]
+      },
+      "camera_backdrop": {
+        "fov": 48,
+        "pos": [
+          55,
+          48,
+          300
+        ],
+        "target": [
+          2,
+          42,
+          40
+        ]
+      },
+      "key_position": [
+        300.0,
+        48.0,
+        400.0
+      ]
+    },
+    "forest": {
+      "biome": "forest",
+      "source_id": "champagne_castle_1",
+      "source_url": "https://polyhaven.com/a/champagne_castle_1",
+      "licence": "CC0",
+      "note": "dark forested mountain ranges \u2014 contrast/darken, no lift wash",
+      "webp": "backdrops/forest.webp",
+      "bytes": 139242,
+      "resolution": [
+        4096,
+        2048
+      ],
+      "horizon_v": 0.4727,
+      "yaw_deg": 179.4,
+      "vista_u": 0.416,
+      "fog_hex": "#8f959f",
+      "ground_disc_hex": "#3a4f30",
+      "horizon_land_hex": "#52554d",
+      "sky_top_hex": "#b9c7dc",
+      "soft_seam": true,
+      "camera_desktop": {
+        "fov": 44,
+        "pos": [
+          68,
+          64,
+          350
+        ],
+        "target": [
+          2,
+          8,
+          234
+        ]
+      },
+      "camera_raised": {
+        "fov": 44,
+        "pos": [
+          68,
+          90,
+          365
+        ],
+        "target": [
+          2,
+          30,
+          175
+        ]
+      },
+      "camera_backdrop": {
+        "fov": 48,
+        "pos": [
+          55,
+          48,
+          300
+        ],
+        "target": [
+          2,
+          42,
+          40
+        ]
+      },
+      "key_position": [
+        300.0,
+        48.0,
+        400.0
+      ],
+      "sphere_radius": 1800,
+      "play_r": 368
+    },
+    "grass": {
+      "biome": "grass",
+      "source_id": "clarens_midday",
+      "source_url": "https://polyhaven.com/a/clarens_midday",
+      "licence": "CC0",
+      "note": "distant open hills to horizon (no near trees); forest-style green grade",
+      "webp": "backdrops/grass.webp",
+      "bytes": 242928,
+      "resolution": [
+        4096,
+        2048
+      ],
+      "horizon_v": 0.4763,
+      "sun_u": 0.5945,
+      "yaw_deg": 55.35,
+      "vista_u": 0.0714,
+      "fog_hex": "#acdacc",
+      "ground_disc_hex": "#5a8a3e",
+      "horizon_land_hex": "#677e66",
+      "sky_top_hex": "#788ba5",
+      "soft_seam": true,
+      "keep_land_frac": 0.05,
+      "sphere_radius": 1800,
+      "play_r": 368,
+      "camera_desktop": {
+        "fov": 44,
+        "pos": [
+          68,
+          64,
+          350
+        ],
+        "target": [
+          2,
+          8,
+          234
+        ]
+      },
+      "camera_raised": {
+        "fov": 44,
+        "pos": [
+          68,
+          90,
+          365
+        ],
+        "target": [
+          2,
+          30,
+          175
+        ]
+      },
+      "camera_backdrop": {
+        "fov": 48,
+        "pos": [
+          55,
+          48,
+          300
+        ],
+        "target": [
+          2,
+          42,
+          40
+        ]
+      },
+      "key_position": [
+        300.0,
+        48.0,
+        400.0
+      ]
+    },
+    "steppe": {
+      "biome": "steppe",
+      "source_id": "drakensberg_solitary_mountain",
+      "source_url": "https://polyhaven.com/a/drakensberg_solitary_mountain",
+      "strip_url": null,
+      "licence": "CC0",
+      "note": "arid highland plateaus (kept from v3 \u2014 quality bar)",
+      "webp": "backdrops/steppe.webp",
+      "bytes": 113728,
+      "resolution": [
+        4096,
+        2048
+      ],
+      "horizon_v": 0.5156,
+      "sun_u": 0.5977,
+      "yaw_deg": 27.22,
+      "yaw_sun_deg": 72.03,
+      "vista_u": 0.9933,
+      "fog_hex": "#a6b7c7",
+      "ground_disc_hex": "#a89868",
+      "horizon_land_hex": "#8f8782",
+      "sky_top_hex": "#566b8a",
+      "masked_below_horizon": true,
+      "soft_seam": true,
+      "keep_land_frac": 0.065,
+      "sphere_radius": 1800.0,
+      "play_r": 368.0,
+      "camera_desktop": {
+        "fov": 44,
+        "pos": [
+          68,
+          64,
+          350
+        ],
+        "target": [
+          2,
+          8,
+          234
+        ]
+      },
+      "camera_raised": {
+        "fov": 44,
+        "pos": [
+          68,
+          90,
+          365
+        ],
+        "target": [
+          2,
+          30,
+          175
+        ]
+      },
+      "camera_backdrop": {
+        "fov": 48,
+        "pos": [
+          55,
+          48,
+          300
+        ],
+        "target": [
+          2,
+          42,
+          40
+        ]
+      },
+      "key_position": [
+        300.0,
+        48.0,
+        400.0
+      ]
+    },
+    "mountain": {
+      "biome": "mountain",
+      "source_id": "pizzo_pernice",
+      "source_url": "https://polyhaven.com/a/pizzo_pernice",
+      "licence": "CC0",
+      "note": "pizzo photo; mast painted out in equirect; peaks raised via mild top-sky crop; yaw=0 like v5",
+      "webp": "backdrops/mountain.webp",
+      "bytes": 84770,
+      "resolution": [
+        4096,
+        2048
+      ],
+      "horizon_v": 0.4102,
+      "sun_u": 0.5977,
+      "yaw_deg": 0.0,
+      "vista_u": 0.918,
+      "fog_hex": "#6f8499",
+      "ground_disc_hex": "#6e6860",
+      "horizon_land_hex": "#848383",
+      "sky_top_hex": "#57687e",
+      "soft_seam": true,
+      "keep_land_frac": 0.055,
+      "sphere_radius": 1800,
+      "play_r": 368,
+      "camera_desktop": {
+        "fov": 44,
+        "pos": [
+          68,
+          64,
+          350
+        ],
+        "target": [
+          2,
+          8,
+          234
+        ]
+      },
+      "camera_raised": {
+        "fov": 44,
+        "pos": [
+          68,
+          90,
+          365
+        ],
+        "target": [
+          2,
+          30,
+          175
+        ]
+      },
+      "camera_backdrop": {
+        "fov": 48,
+        "pos": [
+          55,
+          48,
+          300
+        ],
+        "target": [
+          2,
+          42,
+          40
+        ]
+      },
+      "key_position": [
+        300.0,
+        48.0,
+        400.0
+      ]
+    },
+    "ice": {
+      "biome": "ice",
+      "source_id": "composite_hardanger_glacier",
+      "source_url": "composite: snow_field (Poly Haven CC0) + Hardangerj\u00f8kulen Commons CC0",
+      "strip_url": "https://commons.wikimedia.org/wiki/File:Hardangerj%C3%B8kulen,_luftfoto.jpg",
+      "licence": "CC0",
+      "note": "white glacier/ice field with blue tones + distant peaks \u2014 no cool wash",
+      "webp": "backdrops/ice.webp",
+      "bytes": 181990,
+      "resolution": [
+        4096,
+        2048
+      ],
+      "horizon_v": 0.46,
+      "sun_u": 0.6006,
+      "yaw_deg": -57.15,
+      "yaw_sun_deg": 73.08,
+      "vista_u": 0.7589,
+      "fog_hex": "#92a9af",
+      "ground_disc_hex": "#e8eef4",
+      "horizon_land_hex": "#899da0",
+      "sky_top_hex": "#767676",
+      "masked_below_horizon": true,
+      "soft_seam": true,
+      "keep_land_frac": 0.025,
+      "sphere_radius": 1800.0,
+      "play_r": 368.0,
+      "camera_desktop": {
+        "fov": 44,
+        "pos": [
+          68,
+          64,
+          350
+        ],
+        "target": [
+          2,
+          8,
+          234
+        ]
+      },
+      "camera_raised": {
+        "fov": 44,
+        "pos": [
+          68,
+          90,
+          365
+        ],
+        "target": [
+          2,
+          30,
+          175
+        ]
+      },
+      "camera_backdrop": {
+        "fov": 48,
+        "pos": [
+          55,
+          48,
+          300
+        ],
+        "target": [
+          2,
+          42,
+          40
+        ]
+      },
+      "key_position": [
+        300.0,
+        48.0,
+        400.0
+      ]
+    },
+    "tundra": {
+      "biome": "tundra",
+      "source_id": "horn-koppe_snow",
+      "source_url": "https://polyhaven.com/a/horn-koppe_snow",
+      "licence": "CC0",
+      "note": "open snowy plain + distant snow-covered forested ridges all 4 yaws; no near conifers, no man-made; mild cool grade; replaced empty snow_field_2",
+      "webp": "backdrops/tundra.webp",
+      "bytes": 78538,
+      "resolution": [
+        4096,
+        2048
+      ],
+      "horizon_v": 0.5088,
+      "sun_u": 0.5933,
+      "yaw_deg": 108.48,
+      "vista_u": 0.219,
+      "vista_nudge": null,
+      "fog_hex": "#717c87",
+      "ground_disc_hex": "#8a8570",
+      "horizon_land_hex": "#81858a",
+      "sky_top_hex": "#364054",
+      "soft_seam": true,
+      "keep_land_frac": 0.04,
+      "sphere_radius": 1800.0,
+      "play_r": 368.0,
+      "camera_desktop": {
+        "fov": 44,
+        "pos": [
+          68,
+          64,
+          350
+        ],
+        "target": [
+          2,
+          8,
+          234
+        ]
+      },
+      "camera_raised": {
+        "fov": 44,
+        "pos": [
+          68,
+          90,
+          365
+        ],
+        "target": [
+          2,
+          30,
+          175
+        ]
+      },
+      "camera_backdrop": {
+        "fov": 48,
+        "pos": [
+          55,
+          48,
+          300
+        ],
+        "target": [
+          2,
+          42,
+          40
+        ]
+      },
+      "key_position": [
+        300.0,
+        48.0,
+        400.0
+      ]
+    }
+  }
+}

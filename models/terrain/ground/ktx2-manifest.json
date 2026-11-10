@@ -1,0 +1,322 @@
+{
+ "issue": 143,
+ "source": "issue-338 ground/approved (look-approved, frozen; byte-identical, sources checked)",
+ "encoder": "KTX-Software 4.4.2 `ktx create`",
+ "colour_maps": "albedo/patch: ETC1S (basis-lz) qlevel 255 clevel 4, sRGB, full mip chain",
+ "macro_noise": "ETC1S linear, mips",
+ "normals": "UASTC quality 2 + zstd 18, linear (UNORM), mips; not normal-mode (RGB kept, shader unchanged)",
+ "fallback": "same path with .webp (unchanged approved file)",
+ "loader": "three KTX2Loader + basis transcoder; transcodes to ASTC/ETC2 on phones, BC7/BC1 on desktop",
+ "textures": [
+  {
+   "tex": "desert/albedo",
+   "size": 1024,
+   "psnr": 37.49,
+   "mean_rgb_delta": 0.52,
+   "ktx2_bytes": 235320,
+   "webp_bytes": 135898,
+   "ktx2": "ground/desert/albedo.ktx2",
+   "webp": "ground/desert/albedo.webp"
+  },
+  {
+   "tex": "desert/normal",
+   "size": 512,
+   "psnr": 37.69,
+   "mean_rgb_delta": 0.15,
+   "ktx2_bytes": 323753,
+   "webp_bytes": 79950,
+   "ktx2": "ground/desert/normal.ktx2",
+   "webp": "ground/desert/normal.webp"
+  },
+  {
+   "tex": "desert/patch",
+   "size": 512,
+   "psnr": 36.03,
+   "mean_rgb_delta": 0.57,
+   "ktx2_bytes": 95726,
+   "webp_bytes": 65134,
+   "ktx2": "ground/desert/patch.ktx2",
+   "webp": "ground/desert/patch.webp"
+  },
+  {
+   "tex": "forest/albedo",
+   "size": 512,
+   "psnr": 34.7,
+   "mean_rgb_delta": 0.16,
+   "ktx2_bytes": 95893,
+   "webp_bytes": 55228,
+   "ktx2": "ground/forest/albedo.ktx2",
+   "webp": "ground/forest/albedo.webp"
+  },
+  {
+   "tex": "forest/normal",
+   "size": 512,
+   "psnr": 36.91,
+   "mean_rgb_delta": 0.24,
+   "ktx2_bytes": 328996,
+   "webp_bytes": 77636,
+   "ktx2": "ground/forest/normal.ktx2",
+   "webp": "ground/forest/normal.webp"
+  },
+  {
+   "tex": "forest/patch",
+   "size": 512,
+   "psnr": 38.0,
+   "mean_rgb_delta": 0.95,
+   "ktx2_bytes": 87487,
+   "webp_bytes": 37682,
+   "ktx2": "ground/forest/patch.ktx2",
+   "webp": "ground/forest/patch.webp"
+  },
+  {
+   "tex": "grass/albedo",
+   "size": 512,
+   "psnr": 31.98,
+   "mean_rgb_delta": 0.04,
+   "ktx2_bytes": 101072,
+   "webp_bytes": 71324,
+   "ktx2": "ground/grass/albedo.ktx2",
+   "webp": "ground/grass/albedo.webp"
+  },
+  {
+   "tex": "grass/normal",
+   "size": 512,
+   "psnr": 37.12,
+   "mean_rgb_delta": 0.14,
+   "ktx2_bytes": 323680,
+   "webp_bytes": 76630,
+   "ktx2": "ground/grass/normal.ktx2",
+   "webp": "ground/grass/normal.webp"
+  },
+  {
+   "tex": "grass/patch",
+   "size": 512,
+   "psnr": 31.76,
+   "mean_rgb_delta": 0.02,
+   "ktx2_bytes": 106057,
+   "webp_bytes": 69940,
+   "ktx2": "ground/grass/patch.ktx2",
+   "webp": "ground/grass/patch.webp"
+  },
+  {
+   "tex": "ice/albedo",
+   "size": 1024,
+   "psnr": 39.56,
+   "mean_rgb_delta": 0.13,
+   "ktx2_bytes": 216218,
+   "webp_bytes": 105062,
+   "ktx2": "ground/ice/albedo.ktx2",
+   "webp": "ground/ice/albedo.webp"
+  },
+  {
+   "tex": "ice/normal",
+   "size": 512,
+   "psnr": 35.07,
+   "mean_rgb_delta": 0.66,
+   "ktx2_bytes": 326317,
+   "webp_bytes": 77938,
+   "ktx2": "ground/ice/normal.ktx2",
+   "webp": "ground/ice/normal.webp"
+  },
+  {
+   "tex": "ice/patch",
+   "size": 512,
+   "psnr": 42.62,
+   "mean_rgb_delta": 1.52,
+   "ktx2_bytes": 48203,
+   "webp_bytes": 13836,
+   "ktx2": "ground/ice/patch.ktx2",
+   "webp": "ground/ice/patch.webp"
+  },
+  {
+   "tex": "jungle/albedo",
+   "size": 1024,
+   "psnr": 31.48,
+   "mean_rgb_delta": 0.14,
+   "ktx2_bytes": 291997,
+   "webp_bytes": 162586,
+   "ktx2": "ground/jungle/albedo.ktx2",
+   "webp": "ground/jungle/albedo.webp"
+  },
+  {
+   "tex": "jungle/normal",
+   "size": 512,
+   "psnr": 35.99,
+   "mean_rgb_delta": 0.75,
+   "ktx2_bytes": 321980,
+   "webp_bytes": 76512,
+   "ktx2": "ground/jungle/normal.ktx2",
+   "webp": "ground/jungle/normal.webp"
+  },
+  {
+   "tex": "jungle/patch",
+   "size": 512,
+   "psnr": 33.39,
+   "mean_rgb_delta": 0.03,
+   "ktx2_bytes": 102736,
+   "webp_bytes": 64928,
+   "ktx2": "ground/jungle/patch.ktx2",
+   "webp": "ground/jungle/patch.webp"
+  },
+  {
+   "tex": "mediterranean/albedo",
+   "size": 512,
+   "psnr": 33.02,
+   "mean_rgb_delta": 0.24,
+   "ktx2_bytes": 100477,
+   "webp_bytes": 64016,
+   "ktx2": "ground/mediterranean/albedo.ktx2",
+   "webp": "ground/mediterranean/albedo.webp"
+  },
+  {
+   "tex": "mediterranean/normal",
+   "size": 512,
+   "psnr": 37.21,
+   "mean_rgb_delta": 0.11,
+   "ktx2_bytes": 324998,
+   "webp_bytes": 74886,
+   "ktx2": "ground/mediterranean/normal.ktx2",
+   "webp": "ground/mediterranean/normal.webp"
+  },
+  {
+   "tex": "mediterranean/patch",
+   "size": 512,
+   "psnr": 33.63,
+   "mean_rgb_delta": 0.24,
+   "ktx2_bytes": 97680,
+   "webp_bytes": 71112,
+   "ktx2": "ground/mediterranean/patch.ktx2",
+   "webp": "ground/mediterranean/patch.webp"
+  },
+  {
+   "tex": "mountain/albedo",
+   "size": 512,
+   "psnr": 29.78,
+   "mean_rgb_delta": 0.02,
+   "ktx2_bytes": 102067,
+   "webp_bytes": 86188,
+   "ktx2": "ground/mountain/albedo.ktx2",
+   "webp": "ground/mountain/albedo.webp"
+  },
+  {
+   "tex": "mountain/normal",
+   "size": 512,
+   "psnr": 33.32,
+   "mean_rgb_delta": 0.13,
+   "ktx2_bytes": 329669,
+   "webp_bytes": 77980,
+   "ktx2": "ground/mountain/normal.ktx2",
+   "webp": "ground/mountain/normal.webp"
+  },
+  {
+   "tex": "mountain/patch",
+   "size": 512,
+   "psnr": 36.14,
+   "mean_rgb_delta": 0.36,
+   "ktx2_bytes": 96969,
+   "webp_bytes": 57956,
+   "ktx2": "ground/mountain/patch.ktx2",
+   "webp": "ground/mountain/patch.webp"
+  },
+  {
+   "tex": "savanna/albedo",
+   "size": 512,
+   "psnr": 33.8,
+   "mean_rgb_delta": 0.11,
+   "ktx2_bytes": 96919,
+   "webp_bytes": 61726,
+   "ktx2": "ground/savanna/albedo.ktx2",
+   "webp": "ground/savanna/albedo.webp"
+  },
+  {
+   "tex": "savanna/normal",
+   "size": 512,
+   "psnr": 38.23,
+   "mean_rgb_delta": 0.09,
+   "ktx2_bytes": 325158,
+   "webp_bytes": 75254,
+   "ktx2": "ground/savanna/normal.ktx2",
+   "webp": "ground/savanna/normal.webp"
+  },
+  {
+   "tex": "savanna/patch",
+   "size": 512,
+   "psnr": 32.76,
+   "mean_rgb_delta": 0.15,
+   "ktx2_bytes": 100811,
+   "webp_bytes": 68952,
+   "ktx2": "ground/savanna/patch.ktx2",
+   "webp": "ground/savanna/patch.webp"
+  },
+  {
+   "tex": "shared/macro_noise",
+   "size": 512,
+   "psnr": 36.07,
+   "mean_rgb_delta": 0.1,
+   "ktx2_bytes": 102739,
+   "webp_bytes": 43422,
+   "ktx2": "ground/shared/macro_noise.ktx2",
+   "webp": "ground/shared/macro_noise.webp"
+  },
+  {
+   "tex": "steppe/albedo",
+   "size": 1024,
+   "psnr": 35.58,
+   "mean_rgb_delta": 0.47,
+   "ktx2_bytes": 232053,
+   "webp_bytes": 145492,
+   "ktx2": "ground/steppe/albedo.ktx2",
+   "webp": "ground/steppe/albedo.webp"
+  },
+  {
+   "tex": "steppe/normal",
+   "size": 512,
+   "psnr": 40.05,
+   "mean_rgb_delta": 0.13,
+   "ktx2_bytes": 319499,
+   "webp_bytes": 63692,
+   "ktx2": "ground/steppe/normal.ktx2",
+   "webp": "ground/steppe/normal.webp"
+  },
+  {
+   "tex": "steppe/patch",
+   "size": 512,
+   "psnr": 33.75,
+   "mean_rgb_delta": 0.03,
+   "ktx2_bytes": 97145,
+   "webp_bytes": 63500,
+   "ktx2": "ground/steppe/patch.ktx2",
+   "webp": "ground/steppe/patch.webp"
+  },
+  {
+   "tex": "tundra/albedo",
+   "size": 1024,
+   "psnr": 40.94,
+   "mean_rgb_delta": 0.94,
+   "ktx2_bytes": 197075,
+   "webp_bytes": 89304,
+   "ktx2": "ground/tundra/albedo.ktx2",
+   "webp": "ground/tundra/albedo.webp"
+  },
+  {
+   "tex": "tundra/normal",
+   "size": 512,
+   "psnr": 40.21,
+   "mean_rgb_delta": 0.29,
+   "ktx2_bytes": 313604,
+   "webp_bytes": 78820,
+   "ktx2": "ground/tundra/normal.ktx2",
+   "webp": "ground/tundra/normal.webp"
+  },
+  {
+   "tex": "tundra/patch",
+   "size": 512,
+   "psnr": 34.8,
+   "mean_rgb_delta": 0.81,
+   "ktx2_bytes": 92170,
+   "webp_bytes": 63912,
+   "ktx2": "ground/tundra/patch.ktx2",
+   "webp": "ground/tundra/patch.webp"
+  }
+ ]
+}
