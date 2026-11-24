@@ -49,43 +49,43 @@ The game maps empire population → N; any prefix is a filled set of inner rings
 
 Angles `[0, π/2, π, 3π/2]` = E/S/W/N from `BattleModeScreen.tsx` `wallRingLayout`.
 
-## Instance counts (sand; other themes within ±2%)
+## Instance counts (sand; jungle slightly fewer)
 
 | layout | houses | temples | rings | LOD0 instanced tris (houses+temples+base≈) |
 |---|---:|---:|---:|---:|
-| village_small | ~462 | 2 | 11 | see `qa/overlap.md` |
-| village_large | ~456 | 3 | 11 | |
-| city_small | ~491 | 3 | 11 | |
-| city_large | ~693 | 4 | 13 | |
+| village_small | 437 | 2 | 11 | see `qa/overlap.md` |
+| village_large | 479 | 2 | 12 | |
+| city_small | 548 | 4 | 13 | |
+| city_large | 634 | 4 | 14 | |
 
-House hut ≈ 58 tris; booth similar. Full city_large ≈ 693×58 + 4×temple + base ≪ skinned unique mesh budget when instanced.
+House hut ≈ 58 tris; booth similar. Full city_large ≈ 634×58 + 4×temple + base ≪ skinned unique mesh budget when instanced.
 
 ## QA
 
 `qa/overlap.md` — overlaps 0, road hits 0, outside disc 0, temples-in-rings, counts, tris.
 
-0 Meshy / not published / no repo or tag changes.
+0 Meshy.
 
 ## Exact instance counts (this bake)
 
 | theme | layout | houses | temples | rings | low N | med N |
 |---|---|---:|---:|---:|---:|---:|
-| sand | village_small | 462 | 2 | 11 | 115 | 277 |
-| sand | village_large | 456 | 3 | 11 | 114 | 273 |
-| sand | city_small | 491 | 3 | 11 | 122 | 294 |
-| sand | city_large | 693 | 4 | 13 | 173 | 415 |
-| jungle | village_small | 460 | 2 | 11 | 115 | 276 |
-| jungle | village_large | 455 | 3 | 11 | 113 | 273 |
-| jungle | city_small | 491 | 3 | 11 | 122 | 294 |
-| jungle | city_large | 692 | 4 | 13 | 173 | 415 |
-| snow | village_small | 462 | 2 | 11 | 115 | 277 |
-| snow | village_large | 456 | 3 | 11 | 114 | 273 |
-| snow | city_small | 491 | 3 | 11 | 122 | 294 |
-| snow | city_large | 693 | 4 | 13 | 173 | 415 |
-| forest | village_small | 462 | 2 | 11 | 115 | 277 |
-| forest | village_large | 456 | 3 | 11 | 114 | 273 |
-| forest | city_small | 491 | 3 | 11 | 122 | 294 |
-| forest | city_large | 693 | 4 | 13 | 173 | 415 |
+| sand | village_small | 437 | 2 | 11 | 109 | 262 |
+| sand | village_large | 479 | 2 | 12 | 119 | 287 |
+| sand | city_small | 548 | 4 | 13 | 137 | 328 |
+| sand | city_large | 634 | 4 | 14 | 158 | 380 |
+| jungle | village_small | 431 | 2 | 11 | 107 | 258 |
+| jungle | village_large | 471 | 2 | 12 | 117 | 282 |
+| jungle | city_small | 533 | 4 | 13 | 133 | 319 |
+| jungle | city_large | 621 | 4 | 14 | 155 | 372 |
+| snow | village_small | 437 | 2 | 11 | 109 | 262 |
+| snow | village_large | 479 | 2 | 12 | 119 | 287 |
+| snow | city_small | 548 | 4 | 13 | 137 | 328 |
+| snow | city_large | 634 | 4 | 14 | 158 | 380 |
+| forest | village_small | 437 | 2 | 11 | 109 | 262 |
+| forest | village_large | 479 | 2 | 12 | 119 | 287 |
+| forest | city_small | 547 | 4 | 13 | 136 | 328 |
+| forest | city_large | 634 | 4 | 14 | 158 | 380 |
 
 
 ## Wall world size (v8b)
@@ -95,3 +95,16 @@ After wood-open `villageFit`, `village_small` and `village_large` walls both map
 ## QA
 
 `python3 qa/assert_v8b.py` — order ring non-decreasing, cum counts, large>small, cities>villages, temple scale, 0 overlaps/road/outside.
+
+## Temple counts (Engineer fixed)
+
+| layout | temples | symmetry |
+|---|---:|---|
+| village_small | 2 | opposite quadrants (NE + SW) |
+| village_large | 2 | opposite quadrants (NE + SW) |
+| city_small | 4 | one per quadrant |
+| city_large | 4 | one per quadrant |
+
+Temples are `always: true`, sit among houses between cardinal roads (never on roads), and do not overlap houses.
+
+v12: #332 v8b temple-count fix (village_large 3->2, city_small 3->4) approved by Michael Nov 24 2026

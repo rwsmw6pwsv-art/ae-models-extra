@@ -17,6 +17,13 @@
     "temple_H_m": 9.658,
     "temple_over_house": 2.5282722513089,
     "temple_scale_note": "k_temple=k_house so out_sized temple keeps true-m ratio to houses (~2.5\u00d7 H)",
+    "temple_symmetry": "2=opposite quadrants (\u03c0/4,5\u03c0/4); 4=one per quadrant (\u03c0/4+k\u00b7\u03c0/2)",
+    "temple_counts_fixed": {
+      "village_small": 2,
+      "village_large": 2,
+      "city_small": 4,
+      "city_large": 4
+    },
     "CLEAR": 0.36578304,
     "keep_half_village": 0.338688,
     "plaza_margin": 0.08,
