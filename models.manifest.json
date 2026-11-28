@@ -1,12 +1,92 @@
 {
   "manifestVersion": 1,
   "package": "ae-models-extra",
-  "convention": { "forward": "+Z", "up": "+Y" },
+  "convention": {
+    "forward": "+Z",
+    "up": "+Y"
+  },
   "models": [
-    { "file": "models/units/archer/archer.glb", "forward": "+Z", "up": "+Y" },
-    { "file": "models/units/archer/bow.glb", "forward": "+Z", "up": "+Y", "note": "held item; grip offset in ArcherModel.tsx" },
-    { "file": "models/kings/king_clips.glb", "kind": "clips", "skeleton": "mixamorig-72", "note": "animation-only; targets the mixamorig-72 list in ae-models-kings models.manifest.json" },
-    { "file": "models/kings/crocodile-king.glb", "forward": "+Z", "up": "+Y", "note": "legacy duplicate of Crocodile King Rider; slated for removal" },
-    { "file": "models/kings/puma-king.glb", "forward": "+Z", "up": "+Y", "note": "static mesh; facing not measured" }
+    {
+      "file": "models/units/archer/archer.glb",
+      "forward": "+Z",
+      "up": "+Y"
+    },
+    {
+      "file": "models/units/archer/bow.glb",
+      "forward": "+Z",
+      "up": "+Y",
+      "note": "held item; grip offset in ArcherModel.tsx"
+    },
+    {
+      "file": "models/kings/king_clips.glb",
+      "kind": "clips",
+      "skeleton": "mixamorig-72",
+      "note": "animation-only; targets the mixamorig-72 list in ae-models-kings models.manifest.json"
+    },
+    {
+      "file": "models/kings/crocodile-king.glb",
+      "forward": "+Z",
+      "up": "+Y",
+      "note": "legacy duplicate of Crocodile King Rider; slated for removal"
+    },
+    {
+      "file": "models/kings/puma-king.glb",
+      "forward": "+Z",
+      "up": "+Y",
+      "note": "static mesh; facing not measured"
+    },
+    {
+      "file": "models/terrain/battle_props/rocks/ae_battle_rock_small_lod0.glb",
+      "forward": "+Z",
+      "up": "+Y",
+      "note": "#136 battlefield rock, instance + swap atlas/rock_<biome>.webp"
+    },
+    {
+      "file": "models/terrain/battle_props/rocks/ae_battle_rock_small_lod1.glb",
+      "forward": "+Z",
+      "up": "+Y"
+    },
+    {
+      "file": "models/terrain/battle_props/rocks/ae_battle_rock_boulder_lod0.glb",
+      "forward": "+Z",
+      "up": "+Y"
+    },
+    {
+      "file": "models/terrain/battle_props/rocks/ae_battle_rock_boulder_lod1.glb",
+      "forward": "+Z",
+      "up": "+Y"
+    },
+    {
+      "file": "models/terrain/battle_props/rocks/ae_battle_rock_cluster_lod0.glb",
+      "forward": "+Z",
+      "up": "+Y"
+    },
+    {
+      "file": "models/terrain/battle_props/rocks/ae_battle_rock_cluster_lod1.glb",
+      "forward": "+Z",
+      "up": "+Y"
+    },
+    {
+      "file": "models/terrain/battle_props/banners/ae_battle_banner_atk_lod0.glb",
+      "forward": "+Z",
+      "up": "+Y",
+      "note": "#136 attacker standard; double-sided cloth; shared banner_atlas.webp"
+    },
+    {
+      "file": "models/terrain/battle_props/banners/ae_battle_banner_atk_lod1.glb",
+      "forward": "+Z",
+      "up": "+Y"
+    },
+    {
+      "file": "models/terrain/battle_props/banners/ae_battle_banner_def_lod0.glb",
+      "forward": "+Z",
+      "up": "+Y",
+      "note": "#136 defender standard; double-sided cloth; shared banner_atlas.webp"
+    },
+    {
+      "file": "models/terrain/battle_props/banners/ae_battle_banner_def_lod1.glb",
+      "forward": "+Z",
+      "up": "+Y"
+    }
   ]
 }

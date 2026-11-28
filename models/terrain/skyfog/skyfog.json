@@ -1,0 +1,128 @@
+{
+  "ticket": 136,
+  "note": "Replace the live single BATTLE_HAZE / BATTLE_SKY with these per-biome values. Colours are the approved #338 samples. Do not invent a second sky; official backdrops stay the high-tier sky. Gradient from sky_top_hex \u2192 fog_hex \u2192 ground_disc_hex is the low-tier fallback.",
+  "live_today": {
+    "BATTLE_HAZE": {
+      "color": "#e4c29a",
+      "near": 720,
+      "far": 1760
+    },
+    "BATTLE_SKY": {
+      "top": "#2e6da6",
+      "bottom": "#f2d3aa",
+      "earth": "#9a7048"
+    }
+  },
+  "biomes": {
+    "desert": {
+      "biome": "desert",
+      "fog_hex": "#4c6690",
+      "sky_top_hex": "#394c71",
+      "horizon_land_hex": "#606b7a",
+      "ground_disc_hex": "#d2a86a",
+      "fog_near": 800,
+      "fog_far": 1900,
+      "yaw_deg": 179.1,
+      "source": "ae-models-extra v7 models/terrain/backdrops/manifest.json (look-approved #338). near/far are this draft's density suggestion; colours are not re-authored."
+    },
+    "savanna": {
+      "biome": "savanna",
+      "fog_hex": "#a69c99",
+      "sky_top_hex": "#828fa1",
+      "horizon_land_hex": "#ab9b92",
+      "ground_disc_hex": "#d4b24a",
+      "fog_near": 800,
+      "fog_far": 1900,
+      "yaw_deg": 28.2,
+      "source": "ae-models-extra v7 models/terrain/backdrops/manifest.json (look-approved #338). near/far are this draft's density suggestion; colours are not re-authored."
+    },
+    "mediterranean": {
+      "biome": "mediterranean",
+      "fog_hex": "#abb7c2",
+      "sky_top_hex": "#707d92",
+      "horizon_land_hex": "#63645f",
+      "ground_disc_hex": "#9a8f68",
+      "fog_near": 740,
+      "fog_far": 1800,
+      "yaw_deg": 27.22,
+      "source": "ae-models-extra v7 models/terrain/backdrops/manifest.json (look-approved #338). near/far are this draft's density suggestion; colours are not re-authored."
+    },
+    "jungle": {
+      "biome": "jungle",
+      "fog_hex": "#6d8486",
+      "sky_top_hex": "#67798f",
+      "horizon_land_hex": "#2e3c2a",
+      "ground_disc_hex": "#3f5e32",
+      "fog_near": 580,
+      "fog_far": 1480,
+      "yaw_deg": 139.72,
+      "source": "ae-models-extra v7 models/terrain/backdrops/manifest.json (look-approved #338). near/far are this draft's density suggestion; colours are not re-authored."
+    },
+    "forest": {
+      "biome": "forest",
+      "fog_hex": "#8f959f",
+      "sky_top_hex": "#b9c7dc",
+      "horizon_land_hex": "#52554d",
+      "ground_disc_hex": "#3a4f30",
+      "fog_near": 620,
+      "fog_far": 1560,
+      "yaw_deg": 179.4,
+      "source": "ae-models-extra v7 models/terrain/backdrops/manifest.json (look-approved #338). near/far are this draft's density suggestion; colours are not re-authored."
+    },
+    "grass": {
+      "biome": "grass",
+      "fog_hex": "#acdacc",
+      "sky_top_hex": "#788ba5",
+      "horizon_land_hex": "#677e66",
+      "ground_disc_hex": "#5a8a3e",
+      "fog_near": 760,
+      "fog_far": 1840,
+      "yaw_deg": 55.35,
+      "source": "ae-models-extra v7 models/terrain/backdrops/manifest.json (look-approved #338). near/far are this draft's density suggestion; colours are not re-authored."
+    },
+    "steppe": {
+      "biome": "steppe",
+      "fog_hex": "#a6b7c7",
+      "sky_top_hex": "#566b8a",
+      "horizon_land_hex": "#8f8782",
+      "ground_disc_hex": "#a89868",
+      "fog_near": 800,
+      "fog_far": 1900,
+      "yaw_deg": 27.22,
+      "source": "ae-models-extra v7 models/terrain/backdrops/manifest.json (look-approved #338). near/far are this draft's density suggestion; colours are not re-authored."
+    },
+    "mountain": {
+      "biome": "mountain",
+      "fog_hex": "#6f8499",
+      "sky_top_hex": "#57687e",
+      "horizon_land_hex": "#848383",
+      "ground_disc_hex": "#6e6860",
+      "fog_near": 700,
+      "fog_far": 1700,
+      "yaw_deg": 0.0,
+      "source": "ae-models-extra v7 models/terrain/backdrops/manifest.json (look-approved #338). near/far are this draft's density suggestion; colours are not re-authored."
+    },
+    "ice": {
+      "biome": "ice",
+      "fog_hex": "#92a9af",
+      "sky_top_hex": "#767676",
+      "horizon_land_hex": "#899da0",
+      "ground_disc_hex": "#e8eef4",
+      "fog_near": 780,
+      "fog_far": 2000,
+      "yaw_deg": -57.15,
+      "source": "ae-models-extra v7 models/terrain/backdrops/manifest.json (look-approved #338). near/far are this draft's density suggestion; colours are not re-authored."
+    },
+    "tundra": {
+      "biome": "tundra",
+      "fog_hex": "#717c87",
+      "sky_top_hex": "#364054",
+      "horizon_land_hex": "#81858a",
+      "ground_disc_hex": "#8a8570",
+      "fog_near": 700,
+      "fog_far": 1720,
+      "yaw_deg": 108.48,
+      "source": "ae-models-extra v7 models/terrain/backdrops/manifest.json (look-approved #338). near/far are this draft's density suggestion; colours are not re-authored."
+    }
+  }
+}
